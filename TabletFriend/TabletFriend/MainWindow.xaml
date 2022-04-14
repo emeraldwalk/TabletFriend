@@ -17,7 +17,7 @@
 		<Canvas Name="MainCanvas"></Canvas>
 	</Border>
 	<Window.Triggers>
-		<EventTrigger RoutedEvent="Window.MouseEnter">
+		<!--<EventTrigger RoutedEvent="Window.MouseEnter">
 			<BeginStoryboard>
 				<Storyboard>
 					<DoubleAnimation x:Name="FadeIn"
@@ -26,9 +26,9 @@
 						Duration="0:0:0.3" />
 				</Storyboard>
 			</BeginStoryboard>
-		</EventTrigger>
+		</EventTrigger>-->
 
-		<EventTrigger RoutedEvent="Window.MouseLeave">
+		<!--<EventTrigger RoutedEvent="Window.MouseLeave">
 			<BeginStoryboard>
 				<Storyboard>
 					<DoubleAnimation x:Name="FadeOut"
@@ -39,6 +39,6 @@
 					/>
 				</Storyboard>
 			</BeginStoryboard>
-		</EventTrigger>
+		</EventTrigger>-->
 	</Window.Triggers>
 </Window>

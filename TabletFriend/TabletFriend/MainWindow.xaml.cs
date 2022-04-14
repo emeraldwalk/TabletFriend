@@ -157,14 +157,14 @@ namespace TabletFriend
 				BeginAnimation(OpacityProperty, null);
 				Opacity = AppState.CurrentLayout.Theme.MaxOpacity;
 			}
-			else
-			{
-				MinOpacity = AppState.CurrentLayout.Theme.MinOpacity;
-				MaxOpacity = AppState.CurrentLayout.Theme.MaxOpacity;
-				BeginAnimation(OpacityProperty, null);
-				Opacity = AppState.CurrentLayout.Theme.MaxOpacity;
-				BeginAnimation(OpacityProperty, FadeOut);
-			}
+			//else
+			//{
+			//	MinOpacity = AppState.CurrentLayout.Theme.MinOpacity;
+			//	MaxOpacity = AppState.CurrentLayout.Theme.MaxOpacity;
+			//	BeginAnimation(OpacityProperty, null);
+			//	Opacity = AppState.CurrentLayout.Theme.MaxOpacity;
+			//	BeginAnimation(OpacityProperty, FadeOut);
+			//}
 
 
 			EventBeacon.SendEvent("update_settings");

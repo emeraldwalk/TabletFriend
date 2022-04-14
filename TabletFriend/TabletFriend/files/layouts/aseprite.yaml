@@ -1,0 +1,97 @@
+﻿layout_width: 2
+#external_theme: files/themes/default.yaml
+#theme:
+#	button_size: 14
+
+buttons:
+	undo:
+		action: ctrl+z
+		style: accent
+		icon: undo
+		text: undo
+	redo:
+		action: ctrl+y
+		style: accent
+		icon: redo
+		text: redo
+
+	docked_spacer1:
+		spacer: true
+
+	copy:
+		action: ctrl+c
+		size: 2,2
+		style: outlined
+		icon: content_copy
+		text: copy
+	paste:
+		action: ctrl+v
+		size: 2,2
+		style: outlined
+		icon: content_paste
+		text: paste
+	cut:
+		action: ctrl+x
+		size: 2,2
+		icon_stretch: none
+		style: outlined
+		icon: content_cut
+		text: cut
+
+	escape:
+		font_weight: 500
+		action: escape
+		style: outlined
+		text: Esc
+
+	shift:
+		action: toggle shift
+		text: toggle shift
+		icon: apple_keyboard_shift
+	ctrl:
+		action: toggle ctrl
+		text: toggle ctrl
+		icon: apple_keyboard_control
+	alt:
+		action: repeat alt
+		text: toggle alt
+		icon: apple_keyboard_option
+
+	left:
+		action: repeat left
+		size: 2,2
+		icon: chevron_left
+		visibility: undocked
+	up:
+		action: repeat up
+		size: 2,1
+		icon: chevron_up
+		visibility: undocked
+	right:
+		action: repeat right
+		size: 2,2
+		icon: chevron_right
+		visibility: undocked
+	down:
+		action: repeat down
+		size: 2,1
+		icon: chevron_down
+		visibility: undocked
+
+	docked_spacer3:
+		spacer: true
+		visibility: docked
+		size: 6,1
+
+	select_all:
+		action: ctrl+a
+		size: 2,2
+		icon: card_text
+		text: select all
+		style: outlined
+	save:
+		action: ctrl+s
+		size: 2,2
+		style: outlined
+		icon: content_save
+		text: save
